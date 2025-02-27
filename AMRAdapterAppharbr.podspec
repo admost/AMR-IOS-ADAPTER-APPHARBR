@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterAppharbr'
-  s.version          = '1.19.1.0'
+  s.version          = '1.20.1.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
   s.dependency 'AMRSDK', '~> 1.5.55'
-  s.dependency 'AppHarbrSDK', '1.19.1'
+  s.dependency 'AppHarbrSDK', '1.20.1'
 end
